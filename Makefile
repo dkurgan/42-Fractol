@@ -6,11 +6,11 @@
 #    By: danila <danila@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/08/08 21:42:15 by danila            #+#    #+#              #
-#    Updated: 2019/08/09 19:07:24 by danila           ###   ########.fr        #
+#    Updated: 2019/08/28 14:09:46 by danila           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME = fractoil
+NAME = fractol
 SRC = *.c
 LIBFT = libft
 OBJ = $(SRC:.c=.o)
@@ -33,7 +33,7 @@ clean :
 			@echo "Done with obj files"
 
 fclean : clean
-	@rm -rf fractoil
-	@rm -rf fractoil.dSYM
+	@rm -rf fractol
+	@rm -rf fractol.dSYM
 
 re: fclean all
