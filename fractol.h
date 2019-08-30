@@ -25,7 +25,7 @@
 #include <stdlib.h>
 #include <math.h>
 #include "./libft/libft.h"
-#include "../minilibx_macos/mlx.h"
+#include "./minilibx_macos/mlx.h"
 
 typedef struct s_image
 {
